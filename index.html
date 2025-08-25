@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>भाषामित्र - इंग्लिश ↔ मराठी</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🗣️ भाषामित्र</h1>
+    <p>इंग्लिश ↔ मराठी अनुवादक</p>
+
+    <textarea id="inputText" placeholder="इथे तुमचा मजकूर टाका..."></textarea>
+
+    <div class="buttons">
+      <button onclick="translate('en', 'mr')">इंग्लिश → मराठी</button>
+      <button onclick="translate('mr', 'en')">मराठी → इंग्लिश</button>
+      <button onclick="clearAll()">साफ करा</button>
+    </div>
+
+    <textarea id="outputText" readonly placeholder="अनुवाद इथे येईल..."></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
